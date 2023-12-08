@@ -12,6 +12,8 @@
 		8D949FFF2B211BEB00A2D6EF /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D949FFE2B211BEB00A2D6EF /* HomeScreen.swift */; };
 		8D94A0042B211BED00A2D6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D94A0032B211BED00A2D6EF /* Assets.xcassets */; };
 		8D94A0072B211BED00A2D6EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D94A0052B211BED00A2D6EF /* LaunchScreen.storyboard */; };
+		8D94A0122B236C6E00A2D6EF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94A0112B236C6E00A2D6EF /* HomeViewModel.swift */; };
+		8D94A0152B23709600A2D6EF /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94A0142B23709600A2D6EF /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8D94A0032B211BED00A2D6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D94A0062B211BED00A2D6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D94A0082B211BED00A2D6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D94A0112B236C6E00A2D6EF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8D94A0142B23709600A2D6EF /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,11 @@
 		8D949FF92B211BEB00A2D6EF /* Special Days */ = {
 			isa = PBXGroup;
 			children = (
+				8D94A0132B23708500A2D6EF /* Extensions */,
+				8D94A0102B236C4C00A2D6EF /* View */,
+				8D94A00F2B236C4600A2D6EF /* ViewModel */,
 				8D94A00E2B211CA500A2D6EF /* Supporting */,
-				8D949FFE2B211BEB00A2D6EF /* HomeScreen.swift */,
+				8D94A0082B211BED00A2D6EF /* Info.plist */,
 			);
 			path = "Special Days";
 			sourceTree = "<group>";
@@ -64,12 +71,35 @@
 			isa = PBXGroup;
 			children = (
 				8D94A0052B211BED00A2D6EF /* LaunchScreen.storyboard */,
-				8D94A0082B211BED00A2D6EF /* Info.plist */,
 				8D949FFC2B211BEB00A2D6EF /* SceneDelegate.swift */,
 				8D94A0032B211BED00A2D6EF /* Assets.xcassets */,
 				8D949FFA2B211BEB00A2D6EF /* AppDelegate.swift */,
 			);
 			path = Supporting;
+			sourceTree = "<group>";
+		};
+		8D94A00F2B236C4600A2D6EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D94A0112B236C6E00A2D6EF /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8D94A0102B236C4C00A2D6EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D949FFE2B211BEB00A2D6EF /* HomeScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D94A0132B23708500A2D6EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D94A0142B23709600A2D6EF /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D949FFF2B211BEB00A2D6EF /* HomeScreen.swift in Sources */,
+				8D94A0122B236C6E00A2D6EF /* HomeViewModel.swift in Sources */,
+				8D94A0152B23709600A2D6EF /* UIColor+Ext.swift in Sources */,
 				8D949FFB2B211BEB00A2D6EF /* AppDelegate.swift in Sources */,
 				8D949FFD2B211BEB00A2D6EF /* SceneDelegate.swift in Sources */,
 			);
